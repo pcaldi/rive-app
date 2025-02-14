@@ -7,9 +7,25 @@
 ```
 npx expo start
 ```
-> Instalamos expo-custom-assets
+> Install expo-custom-assets
 ```
-npm expo-custom-assets
+npx expo install expo-custom-assets
 ```
 - Configuramos para ele automatizar e dinamicamente levar o arquivo,
 - tanto para o android ou para o ios.
+
+- Crio a pasta resource onde vai receber as animações
+- Após instalar o pacote e criar a pasta adiciono o plugin ao seu app.json
+```
+"plugins": [
+      [
+        "expo-custom-assets",
+        {
+          "assetsPaths": [
+            "./src/resources"
+          ]
+        }
+      ]
+    ]
+
+```
