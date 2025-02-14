@@ -14,8 +14,8 @@
 		96905EF65AED1B983A6B3ABC /* libPods-riveapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-riveapp.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		FCD776FF7EC04CF2A2B3F7E2 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E280C392E40D5998071DC /* noop-file.swift */; };
-		7DE065C74BB74CE79109A34B /* password_input.riv in Resources */ = {isa = PBXBuildFile; fileRef = DB52C77D0B52479A91DF530B /* password_input.riv */; };
+		CBEA93018AA84A2EB02B3712 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6801E99A0943FDB436560C /* noop-file.swift */; };
+		9288BC3BDD8C4E25B46541EF /* password_input.riv in Resources */ = {isa = PBXBuildFile; fileRef = 5BADF23FBD464AC593402775 /* password_input.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-riveapp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		ED1E280C392E40D5998071DC /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "riveapp/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		A53FABE80D9B4558B493704B /* riveapp-Bridging-Header.h */ = {isa = PBXFileReference; name = "riveapp-Bridging-Header.h"; path = "riveapp/riveapp-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		DB52C77D0B52479A91DF530B /* password_input.riv */ = {isa = PBXFileReference; name = "password_input.riv"; path = "/home/paulo/estudos/rn/rive-app/ios/Assets/password_input.riv"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F6801E99A0943FDB436560C /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "riveapp/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		77D4E24B28E84A8E84A9B94B /* riveapp-Bridging-Header.h */ = {isa = PBXFileReference; name = "riveapp-Bridging-Header.h"; path = "riveapp/riveapp-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5BADF23FBD464AC593402775 /* password_input.riv */ = {isa = PBXFileReference; name = "password_input.riv"; path = "/home/paulo/estudos/rn/rive-app/ios/Assets/password_input.riv"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				ED1E280C392E40D5998071DC /* noop-file.swift */,
-				A53FABE80D9B4558B493704B /* riveapp-Bridging-Header.h */,
+				0F6801E99A0943FDB436560C /* noop-file.swift */,
+				77D4E24B28E84A8E84A9B94B /* riveapp-Bridging-Header.h */,
 			);
 			name = riveapp;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				DB52C77D0B52479A91DF530B /* password_input.riv */,
+				5BADF23FBD464AC593402775 /* password_input.riv */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -201,8 +201,8 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				F00265306DCD45EF8001E9F0 /* riveapp-Bridging-Header.h in Resources */,
-				7DE065C74BB74CE79109A34B /* password_input.riv in Resources */,
+				5C70490E325247F7A886B49A /* riveapp-Bridging-Header.h in Resources */,
+				9288BC3BDD8C4E25B46541EF /* password_input.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +278,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				FCD776FF7EC04CF2A2B3F7E2 /* noop-file.swift in Sources */,
+				CBEA93018AA84A2EB02B3712 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

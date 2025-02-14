@@ -1,15 +1,18 @@
 {
   "expo": {
-    "name": "rive-app",
-    "slug": "rive-app",
+    "name": "riveapp",
+    "slug": "riveapp",
     "version": "1.0.0",
     "plugins": [
       [
         "expo-custom-assets",
         {
+          // Add asset directory paths, the plugin copies the files in the given paths to the app bundle folder named Assets
           "assetsPaths": [
-            "./src/resources"
+            "./src/resources/"
           ]
+          // if you want custom assets directory name use this prop (default: "Assets")
+          // "assetsDirName": "testName"
         }
       ]
     ],

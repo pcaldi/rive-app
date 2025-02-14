@@ -38,3 +38,13 @@ npx expo prebuild
 ```
 npx expo install rive-react-native
 ```
+- Rodo o comando para iniciar o emulador
+```
+npx expo run:android
+```
+- Houve um erro na minha build, então tive que substituir um
+- arquivo de imagem necessário em
+- android/app/src/main/res/drawable/ic_launcher_background.xml
+```
+<bitmap android:gravity="center" android:src="@drawable/splashscreen_logo"/>
+```
