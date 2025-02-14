@@ -34,3 +34,7 @@ npx expo install expo-custom-assets
 ```
 npx expo prebuild
 ```
+- Install a biblioteca do rive
+```
+npx expo install rive-react-native
+```
