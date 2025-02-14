@@ -29,3 +29,8 @@ npx expo install expo-custom-assets
     ]
 
 ```
+- Adiciono o arquivo de animação .riv na pasta resource
+- Após isso rodo o comando de prebuild
+```
+npx expo prebuild
+```

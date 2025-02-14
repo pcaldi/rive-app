@@ -12,6 +12,12 @@
           ]
         }
       ]
-    ]
+    ],
+    "android": {
+      "package": "com.pcaldi.riveapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.pcaldi.riveapp"
+    }
   }
 }
