@@ -39,7 +39,11 @@ export default function App() {
         onFocus={() => changeAnimation(true)}
         onBlur={() => changeAnimation(false)}
       />
-      <TouchableOpacity activeOpacity={0.7} style={styles.button}>
+      <TouchableOpacity
+        activeOpacity={0.7}
+        style={styles.button}
+        onPress={() => changeAnimation(false)}
+      >
         <Text style={styles.buttonText}>Entrar</Text>
       </TouchableOpacity>
     </View>
