@@ -1,3 +1,9 @@
+# 📽️ Demo
+<div align="center" >
+   <img height="600" src="./assets/demo.gif"/>
+</div>
+
+
 # Animações com Rive
 
 - Primeiro passo é criar o projeto em Blank (Bare)
@@ -48,3 +54,4 @@ npx expo run:android
 ```
 <bitmap android:gravity="center" android:src="@drawable/splashscreen_logo"/>
 ```
+
