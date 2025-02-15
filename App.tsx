@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { StyleSheet, View, TextInput } from 'react-native';
+import { StyleSheet, View, TextInput, Text, TouchableOpacity } from 'react-native';
 import Rive, { Fit, RiveRef } from 'rive-react-native';
 
 export default function App() {
@@ -39,6 +39,9 @@ export default function App() {
         onFocus={() => changeAnimation(true)}
         onBlur={() => changeAnimation(false)}
       />
+      <TouchableOpacity activeOpacity={0.7} style={styles.button}>
+        <Text style={styles.buttonText}>Entrar</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -60,5 +63,18 @@ const styles = StyleSheet.create({
     borderColor: '#C4C4C4',
     paddingHorizontal: 16,
     fontSize: 16,
-  }
+  },
+  button: {
+    width: '100%',
+    height: 56,
+    backgroundColor: '#4FB7D8',
+    borderRadius: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
 });
